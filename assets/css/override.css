@@ -1,0 +1,585 @@
+/** Font Declarations **/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/** Color Global Declarations **/ 
+:root{
+    --gt-color-red: #C04441;
+    --gt-color-red-hover: #ae3b39;
+    --gt-color-green: #418595;
+    --gt-color-yellow: #E49034;
+    --gt-color-light-blue: #E6F8FD;
+    --gt-color-dark-green: #00495A;
+    --primary-font-family: 'Montserrat', sans-serif;
+    --secondary-font-family:  'Poppins', sans-serif;
+    --outfit-font-family:  'Outfit', sans-serif;
+}
+
+/* Typography **/
+h2{
+    font-size:54px;
+}
+
+.auto-type{
+    color:var(--gt-color-red)
+}
+
+/** Buttons links **/
+.btn-gt-default{
+    background-color: var(--gt-color-red);
+    color:#fff;
+    border-radius: 4px;
+    border:none;
+    padding: 15px 35px;
+    font-size: 14px;
+    margin: 0;
+    transition: all .2s ease-in;
+    text-transform: capitalize;
+
+}
+.btn-gt-default:hover{
+    background-color: var(--gt-color-red-hover);
+    transition: all .2s ease-in;
+
+}
+
+.tf-btn{
+    border-color:var(--gt-color-red);
+}
+.tf-btn:hover{
+    background-color: var(--gt-color-red);
+}
+.navigation-menu-footer li a:hover{
+    color:#000;
+}
+.navigation-menu-footer li a::after{
+    background-color:var(--gt-color-red);
+}
+
+.form-control:focus {border-color: var(--gt-color-red);box-shadow: 0 0 0 0.25 var(--gt-color-red);}
+/** Registration Modal **/
+
+.gt-modal .nav-tabs {
+    display: flex;
+    margin: 0;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border: none;
+    padding: 0;
+}
+
+.gt-modal .nav-tabs > li {
+    width: 50%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.gt-modal .nav-tabs > li > button {
+    width: 100%;
+    border-radius: 0;
+    padding: 15px;
+    color: #000;
+    margin: 0;
+    background: #ffffff;
+    border: none;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.gt-modal .nav-tabs > li > button.active {
+    margin: 0;
+    color: #000;
+    border-bottom: 1px solid var(--gt-color-dark-green);
+}
+
+.gt-modal .modal-content {
+    border-radius: 10px;
+}
+.gt-modal button {
+    margin-top: 20px;
+    border: none;
+    width: 100%;
+    border-radius: 0;
+}
+.gt-form-control input {
+    padding: 10px;
+}
+.gt-modal .nice-select .current {
+    border: 1px solid #d9d9d9;
+    padding: 10px;
+}
+/** Inputs override **/
+.gt-select {
+    min-width: 135px;
+    padding: 0px;
+    padding-right: 10px;
+    border: none;
+    border-bottom: 2px solid var(--gt-color-red);
+    margin-left: 20px;
+    height: unset!important;
+}
+
+.gt-header-option small{
+    font-size: 12px;
+    margin-bottom: 0px;
+    color:var(--gt-color-red);
+    font-weight: 600;
+    margin-left: 4px;
+}
+.gt-header-option select{
+    border:none;
+    padding:0;
+    font-size:16px;
+    height: unset;
+    color:#000;
+}
+.nice-select .option.selected{
+    color:var(--gt-color-red);
+}
+
+
+
+.tf-slider .heading h2{
+    padding-right:0;
+}
+
+.gt-form-control input::after {
+    top: 3px;
+    left: 3px;
+    background-color: var(--gt-color-red)!important;
+}
+
+.gt-form-control input {
+    position: relative;
+}
+.form-check-input:checked {
+    background: none;
+    border-color: var(--gt-color-red);
+}
+.cv-form-details span.current {
+    border: 1px solid #d9d9d9;
+    padding: 10px;
+}
+.gt-form-control textarea {
+    height: 100px;
+}
+/** Body Styles **/
+body{
+    font-family: var(--outfit-font-family);
+}
+/** Header **/
+/** Header Styles **/ 
+header{
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #d9d9d9;
+    background-color: #fff;
+}
+.header-navigation li{
+    font-size: 15px;
+    font-weight: 500;
+}
+.header-navigation li a{
+    color:#000;
+    border-bottom: 2px solid transparent;
+    transition: all .2s ease-in;
+}
+.header-navigation li:hover a{
+    border-bottom: 2px solid var(--gt-color-red);
+    transition: all .2s ease-in;
+}
+
+.mobile-menu-btn{
+    background:none;
+    border:none;
+    margin-right: 10px;
+}
+header .nice-select .current{
+    margin:0;
+    padding-left: 5px;
+}
+
+header .gt-header-option:first-child .nice-select .current {
+    width:200px;
+}
+
+header .gt-header-option .nice-select .current {
+    width:100px;
+}
+
+/** Slider Override **/
+.tf-slider.sl2{
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: var(--gt-color-light-blue);
+    height:600px;
+    padding-top: 0;
+}
+
+.tf-slider.sl2 p{
+    font-size: 18px;
+}
+
+/** Category Header Bar **/ 
+.category-header-bar{
+    background-color: var(--gt-color-green);
+    height:50px;
+}
+.category-header-bar a{
+    border-bottom: 2px solid transparent;
+    color: #fff;
+    font-size: 15px;
+    transition: all .2s ease-in;
+}
+
+.category-header-bar li:hover a{
+    border-bottom: 1px solid #fff;
+    transition: all .2s ease-in;
+}
+
+/** Partner Area **/
+.wd-partner{
+    background-color: var(--gt-color-green);
+}
+
+/** Process Wrapper **/
+/** Process Section **/ 
+.title-iconbox.style-2 h1, .tf-iconbox.style-2 .box-content a{
+    color:#000;
+}
+
+/** **/
+.job-category-box h1 a:hover{
+    color:#fff;
+}
+/** Browse Categories **/
+.title-iconbox h1, .tf-iconbox .box-content h1,.tf-title h1,.wd-get-app h3,.wd-review-job h3{
+    font-size:38px;
+}
+.job-category-box .btn-category-job{
+    color:var(--gt-color-dark-green)
+}
+.tf-iconbox.style-2 .icon{
+    background-color: var(--gt-color-red)!important;
+}
+.tf-iconbox.style-2 .icon.bg-white svg{
+    max-width: 50px!important;
+}
+.tf-iconbox.style-2 .icon.bg-white svg path{
+    stroke:#fff!important;
+}
+/** App Get Section **/
+.bg-get-app{
+    background: var(--gt-color-light-blue);
+}
+
+/** Reviews Section **/
+/** Reviews Section **/
+.reviews-wrapper{
+    height:400px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.reviews-wrapper h3{
+    font-size:38px;
+    margin-bottom: 20px;
+}
+.reviews-wrapper p{
+    line-height: 20px;
+}
+
+.single-review {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.single-review .rating {
+    color: var(--gt-color-yellow);
+    margin: 10px 0px;
+}
+
+.single-review h5 {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+img.user-avatar {
+    margin: 20px 0px;
+}
+
+.single-review p strong {
+    font-weight: 600;
+    color: #000;
+}
+
+.single-review p {font-weight: 400;color: #0006;}
+
+.reviews .swiper-slide {opacity: 0.5;}
+
+.reviews .swiper-slide-active, .reviews .swiper-slide-next {
+    opacity: 1;
+}
+
+
+/** Footer Styles **/
+.footer{
+    background-color: #fff;
+    border-top: 1px solid #d9d9d9;
+}
+
+
+.footer .bottom{
+    border-top: 1px solid #d9d9d9;
+}
+.footer .list-social li a {
+    background: #fff;
+    border: 1px solid var(--gt-color-red);
+}
+
+.list-social li a:hover{
+    background-color: var(--gt-color-red);
+}
+
+.icon-call-calling .path1:before,.icon-call-calling .path2:before, .icon-call-calling .path3:before,.icon-call-calling .path4:before{
+    color:var(--gt-color-red);
+}
+input#subscribe-email {
+    border: 1px solid #0004;
+}
+
+#subscribe-form button{
+    background-color:var(--gt-color-red);
+}
+
+
+
+/** Breacrumbs Section **/
+section.breadcrumb-section {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid var(--gt-color-yellow);
+}
+.breadcrumb-section, .widget-menu-link {
+    background-color: #f9f9f9;
+}
+
+.group-select-display .btn-display:hover, .group-select-display .btn-display.active{
+    background-color:var(--gt-color-red);
+    border-color:var(--gt-color-red);
+}
+
+.pagination-job.padding{
+    justify-content: flex-end;
+}
+
+.features-job .job-archive-header h4 a{
+    color:#000;
+}
+.wd-thum-career .career-tag li a:hover{
+    background-color: var(--gt-color-red);
+}
+.pagination-job li.current a, .pagination-job li a:hover{
+    background-color:var(--gt-color-red);
+}
+h3 span.icon-bolt{
+    background-color: var(--gt-color-yellow);
+}
+
+.cv-form-details .list-infor li {
+    border-color: #bbcbd0;
+}
+.cv-form-details .list-infor li .detail a{
+    color:var(--gt-color-red);
+}
+/** Freelancer Detail Page **/
+
+.cv-form-details{
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+}
+.cv-form-details .wd-social ul li a{
+    background-color:#fff;
+    border: 1px solid var(--gt-color-red);
+}
+.cv-form-details .wd-social ul li a:hover{
+    background-color:var(--gt-color-red);
+}
+.wrapper-author-page-title .tf-btn:hover{
+    border-color:var(--gt-color-red);
+}
+.wrapper-author-page-title .tf-btn:first-child{
+    background-color: var(--gt-color-green);
+    color:#fff;
+    border-color: var(--gt-color-green);
+}
+
+.job-article.single-job .menu-tab li.active{
+    border-color:var(--gt-color-red);
+}
+.wrapper-author-page-title{
+    background-position: right;
+    background-size: cover;
+    height: 400px;
+}
+.wrapper-author-page-title::before {
+    content: "";
+    background: #000000ab;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+.wrapper-author-page-title{
+    position: relative;
+}
+button.tf-btn.btn-author {
+    background: var(--gt-color-yellow);
+    border-color: var(--gt-color-yellow);
+}
+button.tf-btn.btn-author:hover{
+    border-color: var(--gt-color-yellow);
+}
+.wd-author-page-title .logo-company {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.widget-menu-link {
+    background-color: transparent;
+}
+
+.page-title h4 {
+    color: #fff;
+}
+#calendar button {
+    background: none;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    font-size: 14px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calendar button:hover {
+    background: var(--gt-color-red);
+    transition: all .2s ease-in;
+    color: #fff;
+    border-color: var(--gt-color-red);
+}
+
+.cv-form-details p {
+    font-size: 13px;
+    margin: 0;
+}
+.widget-menu-link ul li a {color: #fff!important;}
+
+.gt-booking-details{
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    transition: all .2s ease-in;
+}
+.gt-booking-details.show{
+    visibility: visible;
+    opacity: 1;
+    height: unset;
+    transition: all .2s ease-in;
+}
+
+.gt-booking-details p span.text-lg, .gt-booking-details p strong {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--gt-color-dark-green);
+    text-align: left;
+}
+a.forgot-password {
+    font-weight: 500;
+    color: var(--gt-color-red);
+    text-decoration: underline;
+}
+
+/** Dashboard **/ 
+.dashboard .themes-container{
+    width: unset;
+}
+
+.sticky-area-wrap .header-ct-right .bell .sub-notification {
+    border: 1px solid #d9d9d9;
+    left: -200px;
+}
+.sticky-area-wrap .header-ct-right .bell .sub-notification-item .content{
+    font-size:14px;
+}
+
+.wd-form-rating-page{
+    max-width: unset;
+    margin-left:0;
+}
+
+.job-category-box:hover, .job-category-box.active {
+    background: var(--gt-color-green);
+}
+/** Responsive Styles **/
+@media screen and (max-width:576px)
+{
+    .tf-slider.sl2{
+        background-image:none!important;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    .dashboard .btn {
+      left: 10px;
+      top: 20px;
+    }
+  }
+  
+
+
+/** Dashboard Page styles **/
+.downmenu li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+p.account-verification-notice {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+}
+
+p.account-verification-notice a {
+    color: var(--gt-color-red);
+    text-decoration: underline;
+}
+
+span.icon-mark {
+    border: 1px solid var(--gt-color-yellow);
+    background: var(--gt-color-yellow);
+    padding: 5px 13px;
+    margin-right: 20px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 23px;
+}
+
+.pricing-calculator .pricing {
+    background: none;
+}
+
+.tf-slider .form-sl .form-group-1 input {
+    margin-left: 30px;
+}
