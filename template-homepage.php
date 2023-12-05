@@ -26,16 +26,12 @@ get_header();
                   <div class="form-group-2">
                     <span class="icon-map-pin"></span>
                     <select id="select-location" class="select-location">
-                      <option value="">All Location</option>
-                      <option value="">Japan</option>
-                      <option value="">Canada</option>
-                      <option value="">England</option>
-                      <option value="">Mexico</option>
+                     <option value="uae">United Arab Emirates</option>
                     </select>
                   </div>
                   <div class="form-group-4">
                     <button type="submit" class="btn-gt-default">
-                      Find Jobs
+                      Find Talent
                     </button>
                   </div>
                 </div>
@@ -57,7 +53,7 @@ get_header();
     <div class="wd-partner">
       <div class="tf-container">
         <h1 class="title-partner">
-          Over 100,000 recruiters use Jobtex to modernize their hiring
+          Over 100,000 recruiters use GoTalent to modernize their hiring
         </h1>
         <div class="swiper partner-type-6">
           <div class="swiper-wrapper">
@@ -130,10 +126,10 @@ get_header();
   <section class="wd-iconbox flat-row style-2">
     <div class="tf-container">
       <div class="title-iconbox style-2">
-        <h1>How It Work</h1>
+        <h1>How It Works</h1>
         <p>
           Streamline your hiring process with strategic channels to reach
-          qualified candidates
+          qualified talent.
         </p>
       </div>
       <div class="row rg-st1">
@@ -179,12 +175,9 @@ get_header();
             </div>
             <div class="box-content">
               <h1 class="box-title">
-                <a href="#">1.&ensp; Post A job</a>
+                <a href="#">1.&ensp; Find the Right Talent</a>
               </h1>
-              <p>
-                Structured digital interviews increase the predictive
-                validity of your hires by 65%.
-              </p>
+              
             </div>
           </div>
         </div>
@@ -255,12 +248,9 @@ get_header();
             </div>
             <div class="box-content">
               <h1 class="box-title">
-                <a href="#">2.&ensp; Find Employers</a>
+                <a href="#">2.&ensp; Send Requirements</a>
               </h1>
-              <p>
-                Structured digital interviews increase the predictive
-                validity of your hires by 65%.
-              </p>
+              
             </div>
           </div>
         </div>
@@ -316,12 +306,9 @@ get_header();
             </div>
             <div class="box-content">
               <h1 class="box-title">
-                <a href="#">3.&ensp; Pay Safely</a>
+                <a href="#">3.&ensp; Wait for talent's reply</a>
               </h1>
-              <p>
-                Structured digital interviews increase the predictive
-                validity of your hires by 65%.
-              </p>
+              
             </div>
           </div>
         </div>
@@ -376,12 +363,9 @@ get_header();
             </div>
             <div class="box-content">
               <h1 class="box-title">
-                <a href="#">4.&ensp; We’re Here To Help</a>
+                <a href="#">4.&ensp; Book Talent!</a>
               </h1>
-              <p>
-                Structured digital interviews increase the predictive
-                validity of your hires by 65%.
-              </p>
+              
             </div>
           </div>
         </div>
@@ -398,10 +382,7 @@ get_header();
               <h1>Browse by category</h1>
               <p>Recruitment Made Easy in 100 seconds</p>
             </div>
-            <a href="job-single.html" class="tf-button">
-              All Categories
-              <span class="icon-arrow-right2"></span>
-            </a>
+            
           </div>
         </div>
         <div class="col-md-12">
@@ -438,453 +419,8 @@ get_header();
       </div>
     </div>
   </section>
-  <section class="review-job-section stc">
-    <div class="tf-tab">
-      <div class="tf-container">
-        <div class="row">
-
-          <div class="col-lg-7 col-md-6 content-tab wow fadeInLeft">
-            <div class="wd-review-job contentbox1 style2">
-              <h3>Your end-to-end <br> hiring platform</h3>
-              <p>Manage the entire recruitment lifecycle with all the features in each of the products above, fully
-                integrated and all in one place.</p>
-              <div class="group-list-icon">
-                <ul class="wd-list-icon style2">
-                  <li><span class="icon">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                          fill="#14A077" />
-                      </svg>
-                    </span>Filtering</li>
-                  <li><span class="icon">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                          fill="#14A077" />
-                      </svg>
-                    </span>Screening</li>
-                  <li><span class="icon">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                          fill="#14A077" />
-                      </svg>
-                    </span>Pre-Screening</li>
-                </ul>
-                <ul class="wd-list-icon style2">
-                  <li><span class="icon">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                          fill="#14A077" />
-                      </svg>
-                    </span>Scheduling</li>
-                  <li><span class="icon">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                          fill="#14A077" />
-                      </svg>
-                    </span>Interviewing</li>
-                  <li><span class="icon">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                          fill="#14A077" />
-                      </svg>
-                    </span>References</li>
-                </ul>
-              </div>
-            </div>
-            <div class="wd-review-job contentbox1 style2">
-              <h3>Your end-to-end <br> hiring platform</h3>
-              <p>Manage the entire recruitment lifecycle with all the features in each of the products above, fully
-                integrated and all in one place.</p>
-              <div class="group-list-icon">
-                <ul class="wd-list-icon style2">
-                  <li><span class="icon">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                          fill="#14A077" />
-                      </svg>
-                    </span>Filtering</li>
-                  <li><span class="icon">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                          fill="#14A077" />
-                      </svg>
-                    </span>Screening</li>
-                  <li><span class="icon">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                          fill="#14A077" />
-                      </svg>
-                    </span>Pre-Screening</li>
-                </ul>
-                <ul class="wd-list-icon style2">
-                  <li><span class="icon">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                          fill="#14A077" />
-                      </svg>
-                    </span>Scheduling</li>
-                  <li><span class="icon">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                          fill="#14A077" />
-                      </svg>
-                    </span>Interviewing</li>
-                  <li><span class="icon">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                          fill="#14A077" />
-                      </svg>
-                    </span>References</li>
-                </ul>
-              </div>
-            </div>
-            <div class="wd-review-job contentbox1 style2">
-              <h3>Your end-to-end <br> hiring platform</h3>
-              <p>Manage the entire recruitment lifecycle with all the features in each of the products above, fully
-                integrated and all in one place.</p>
-              <div class="group-list-icon">
-                <ul class="wd-list-icon style2">
-                  <li><span class="icon">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                          fill="#14A077" />
-                      </svg>
-                    </span>Filtering</li>
-                  <li><span class="icon">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                          fill="#14A077" />
-                      </svg>
-                    </span>Screening</li>
-                  <li><span class="icon">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                          fill="#14A077" />
-                      </svg>
-                    </span>Pre-Screening</li>
-                </ul>
-                <ul class="wd-list-icon style2">
-                  <li><span class="icon">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                          fill="#14A077" />
-                      </svg>
-                    </span>Scheduling</li>
-                  <li><span class="icon">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                          fill="#14A077" />
-                      </svg>
-                    </span>Interviewing</li>
-                  <li><span class="icon">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                          fill="#14A077" />
-                      </svg>
-                    </span>References</li>
-                </ul>
-              </div>
-            </div>
-            <div class="wd-review-job contentbox1 style2">
-              <h3>Your end-to-end <br> hiring platform</h3>
-              <p>Manage the entire recruitment lifecycle with all the features in each of the products above, fully
-                integrated and all in one place.</p>
-              <div class="group-list-icon">
-                <ul class="wd-list-icon style2">
-                  <li><span class="icon">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                          fill="#14A077" />
-                      </svg>
-                    </span>Filtering</li>
-                  <li><span class="icon">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                          fill="#14A077" />
-                      </svg>
-                    </span>Screening</li>
-                  <li><span class="icon">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                          fill="#14A077" />
-                      </svg>
-                    </span>Pre-Screening</li>
-                </ul>
-                <ul class="wd-list-icon style2">
-                  <li><span class="icon">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                          fill="#14A077" />
-                      </svg>
-                    </span>Scheduling</li>
-                  <li><span class="icon">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                          fill="#14A077" />
-                      </svg>
-                    </span>Interviewing</li>
-                  <li><span class="icon">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                          fill="#14A077" />
-                      </svg>
-                    </span>References</li>
-                </ul>
-              </div>
-            </div>
-            <div class="wd-review-job contentbox1 style2">
-              <h3>Your end-to-end <br> hiring platform</h3>
-              <p>Manage the entire recruitment lifecycle with all the features in each of the products above, fully
-                integrated and all in one place.</p>
-              <div class="group-list-icon">
-                <ul class="wd-list-icon style2">
-                  <li><span class="icon">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                          fill="#14A077" />
-                      </svg>
-                    </span>Filtering</li>
-                  <li><span class="icon">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                          fill="#14A077" />
-                      </svg>
-                    </span>Screening</li>
-                  <li><span class="icon">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                          fill="#14A077" />
-                      </svg>
-                    </span>Pre-Screening</li>
-                </ul>
-                <ul class="wd-list-icon style2">
-                  <li><span class="icon">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                          fill="#14A077" />
-                      </svg>
-                    </span>Scheduling</li>
-                  <li><span class="icon">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                          fill="#14A077" />
-                      </svg>
-                    </span>Interviewing</li>
-                  <li><span class="icon">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                          fill="#14A077" />
-                      </svg>
-                    </span>References</li>
-                </ul>
-              </div>
-            </div>
-
-          </div>
-          <div class="col-lg-5 col-md-6">
-            <div class="wd-review-job thumb1 widget-counter">
-              <div class="thumb">
-                <img src="<?php echo GT_IMAGES; ?>/review/thumb-review.png" alt="<?php echo GT_IMAGES; ?>">
-                <div class="trader-box box1 ani4">
-                  <div class="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="27" viewBox="0 0 26 27" fill="none">
-                      <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M8.82861 17.9669L10.8172 11.6126L17.1715 9.62402L15.1829 15.9783L8.82861 17.9669Z"
-                        stroke="#14A077" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                      <circle cx="13" cy="13.7949" r="12" stroke="#14A077" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round" />
-                    </svg>
-                  </div>
-                  <div class="content">
-                    <h6 class="number wrap-counter">
-                      <span class="counter-number" data-speed="2000" data-to="198"></span><span>+</span>
-                    </h6>
-                    <div class="des">Countries</div>
-                  </div>
-                </div>
-                <div class="trader-box box2 ani5">
-                  <div class="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                      <path
-                        d="M22.6673 10.4618C22.3412 8.11547 21.2527 5.94139 19.5695 4.27451C17.8863 2.60762 15.7017 1.54041 13.3522 1.23725C11.0028 0.934097 8.61881 1.41182 6.56759 2.59684M1.33398 2.46185V7.79518H6.66732"
-                        stroke="#14A077" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                      <path
-                        d="M1.33398 13.1289C1.66006 15.4753 2.74856 17.6494 4.4318 19.3162C6.11504 20.9831 8.29964 22.0503 10.6491 22.3535C12.9985 22.6567 15.3825 22.1789 17.4337 20.9939M22.6673 21.1289V15.7956H17.334"
-                        stroke="#14A077" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                  </div>
-                  <div class="content">
-                    <h6 class="number wrap-counter">
-                      <span class="counter-number" data-speed="2000" data-to="350"></span><span>k</span>
-                    </h6>
-                    <div class="des">Job Search Success</div>
-                  </div>
-                </div>
-                <div class="trader-box box3 ani4">
-                  <div class="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                      <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M9.52382 15.5352C5.03915 15.5352 1.20898 16.213 1.20898 18.929C1.20898 21.6438 5.01465 22.3473 9.52382 22.3473C14.0085 22.3473 17.8387 21.6683 17.8387 18.9535C17.8387 16.2387 14.033 15.5352 9.52382 15.5352Z"
-                        stroke="#14A077" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                      <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M9.52465 11.6616C12.4833 11.6616 14.854 9.28976 14.854 6.33226C14.854 3.3736 12.4833 1.00293 9.52465 1.00293C6.56715 1.00293 4.19531 3.3736 4.19531 6.33226C4.19531 9.28976 6.56715 11.6616 9.52465 11.6616Z"
-                        stroke="#14A077" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                      <path d="M20.4056 7.9082V12.5865" stroke="#3772FF" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round" />
-                      <path d="M22.7912 10.2474H18.0195" stroke="#3772FF" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round" />
-                    </svg>
-                  </div>
-                  <div class="content">
-                    <h6 class="number">
-                      1 million+
-                    </h6>
-                    <div class="des">Candidates</div>
-                  </div>
-                </div>
-                <div class="group-tab menu-tab">
-                  <div class="user-tag tag1">
-                    <img src="<?php echo GT_IMAGES; ?>/review/user1.jpg" alt="<?php echo GT_IMAGES; ?>">
-                  </div>
-                  <div class="user-tag tag2">
-                    <img src="<?php echo GT_IMAGES; ?>/review/user2.jpg" alt="<?php echo GT_IMAGES; ?>">
-                  </div>
-                  <div class="user-tag tag3">
-                    <img src="<?php echo GT_IMAGES; ?>/review/user3.jpg" alt="<?php echo GT_IMAGES; ?>">
-                  </div>
-                  <div class="user-tag tag4 active">
-                    <img src="<?php echo GT_IMAGES; ?>/review/user4.jpg" alt="<?php echo GT_IMAGES; ?>">
-                  </div>
-                  <div class="user-tagg tag5 ani2">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="41" viewBox="0 0 40 41" fill="none">
-                      <g clip-path="url(#clip0_5631_259134)">
-                        <circle cx="19.9964" cy="20.7069" r="15.0028" transform="rotate(-23.3151 19.9964 20.7069)"
-                          fill="white" />
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M25.9343 34.4846C18.3247 37.7642 9.49824 34.2544 6.21866 26.6448C2.93909 19.0352 6.44886 10.2088 14.0584 6.92922C21.668 3.64965 30.4945 7.15942 33.774 14.769C37.0536 22.3786 33.5438 31.205 25.9343 34.4846ZM26.764 21.0106C25.8277 18.838 23.9418 18.1958 20.4373 18.7995L18.7895 14.9761C19.858 14.7546 20.9797 14.7725 22.1847 15.0404L22.5399 12.6451C21.0234 12.2976 19.4422 12.3538 17.9542 12.8081L17.4339 11.6008L15.6169 12.3838L16.1198 13.5506C13.5958 14.8774 12.4627 17.1311 13.399 19.3037C14.3788 21.577 16.2756 22.0715 19.6544 21.5221L21.3541 25.4659C19.9093 25.8497 18.522 25.7318 16.9321 25.3194L16.3847 27.7261C18.2898 28.2108 20.2913 28.1653 22.1724 27.5944L23.0393 29.606L24.8563 28.8229L23.9979 26.8312C26.5547 25.4668 27.7178 23.2236 26.764 21.0106ZM18.6044 19.0881C16.7974 19.3186 16.1671 18.9459 15.8027 18.1003C15.4215 17.2159 15.8068 16.2147 17.0792 15.5469L18.6044 19.0881ZM24.3601 22.2131C24.7764 23.1792 24.3108 24.1671 23.0385 24.8349L21.469 21.1933C23.2979 20.9544 23.97 21.308 24.3604 22.2139L24.3601 22.2131Z"
-                          fill="#1E68F6" />
-                      </g>
-                      <defs>
-                        <clipPath id="clip0_5631_259134">
-                          <rect width="30.0056" height="30.0056" fill="white"
-                            transform="translate(0.280762 12.8671) rotate(-23.3151)" />
-                        </clipPath>
-                      </defs>
-                    </svg>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
 
 
-        </div>
-      </div>
-
-    </div>
-
-  </section>
-  <!-- Reviews Section -->
-  <div class="reviews-wrapper mt-5 py-5" style="background-image:url(<?php echo GT_IMAGES; ?>/reviews.png)">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-4">
-          <h3 class="text-white">Our Recuruitment Partners Love us.</h3>
-          <p class="mb-3 text-white">Find the Best Pre-vetted Talent on our Platform with 0 Processing fee and quick
-            support.</p>
-          <button class="btn-gt-default mb-4">Find Talent</button>
-        </div>
-        <div class="col-lg-8">
-          <div class="swiper reviews">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide single-review">
-                <div class="rating">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-                <h5>The Project was a Grand Success and the Customer feedback was overwhelming.</h5>
-                <img src="<?php echo GT_IMAGES; ?>/avatar-1.png" alt="avatar-1" class="user-avatar">
-                <p><strong>Millenia Adams</strong></p>
-                <p>Product Manager at Google</p>
-              </div>
-              <div class="swiper-slide single-review">
-                <div class="rating">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-                <h5>The Project was a Grand Success and the Customer feedback was overwhelming.</h5>
-                <img src="<?php echo GT_IMAGES; ?>/avatar-1.png" alt="avatar-1" class="user-avatar">
-                <p><strong>Millenia Adams</strong></p>
-                <p>Product Manager at Google</p>
-              </div>
-              <div class="swiper-slide single-review">
-                <div class="rating">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-                <h5>The Project was a Grand Success and the Customer feedback was overwhelming.</h5>
-                <img src="<?php echo GT_IMAGES; ?>/avatar-1.png" alt="avatar-1" class="user-avatar">
-                <p><strong>Millenia Adams</strong></p>
-                <p>Product Manager at Google</p>
-              </div>
-              <div class="swiper-slide single-review">
-                <div class="rating">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-                <h5>The Project was a Grand Success and the Customer feedback was overwhelming.</h5>
-                <img src="<?php echo GT_IMAGES; ?>/avatar-1.png" alt="avatar-1" class="user-avatar">
-                <p><strong>Millenia Adams</strong></p>
-                <p>Product Manager at Google</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
 <?php
 get_footer();

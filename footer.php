@@ -14,18 +14,7 @@
 							<li>
 								<a href="#"><i class="icon-facebook"></i></a>
 							</li>
-							<li>
-								<a href="#"><i class="icon-linkedin2"></i></a>
-							</li>
-							<li>
-								<a href="#"><i class="icon-twitter"></i></a>
-							</li>
-							<li>
-								<a href="#"><i class="icon-pinterest"></i></a>
-							</li>
-							<li>
-								<a href="#"><i class="icon-instagram1"></i></a>
-							</li>
+							
 							<li>
 								<a href="#"><i class="icon-youtube"></i></a>
 							</li>
@@ -52,12 +41,10 @@
 							</div>
 						</div>
 						<p>
-							Job Searching Just Got Easy. Use Jobtex to run a hiring site
-							and earn money in the process!
+							
 						</p>
 						<div class="ft-icon">
-							<i class="icon-map-pin"></i> 101 E 129th St, East Chicago,
-							IN 46312, US
+							<i class="icon-map-pin"></i> 
 						</div>
 						<form action="#" id="subscribe-form">
 							<input type="email" placeholder="Your email address" required="" id="subscribe-email" />
@@ -71,7 +58,7 @@
 				<div class="col-lg-2 col-md-6 col-6">
 					<div class="footer-cl-2">
 						<h6 class="ft-title">Quick Links</h6>
-						<ul class="navigation-menu-footer">
+						<!-- <ul class="navigation-menu-footer">
 							<li><a href="find-jobs-list.html">Job Packages</a></li>
 							<li><a href="find-jobs-list.html">Post New Job</a></li>
 							<li><a href="find-jobs-list.html">Jobs Listing</a></li>
@@ -80,37 +67,19 @@
 							<li>
 								<a href="employers-grid-fullwidth.html">Employers Grid</a>
 							</li>
-						</ul>
+						</ul> -->
 					</div>
 				</div>
 				<div class="col-lg-2 col-md-4 col-6">
 					<div class="footer-cl-3">
-						<h6 class="ft-title">For Candidates</h6>
-						<ul class="navigation-menu-footer">
-							<li><a href="dashboard.html">User Dashboard</a></li>
-							<li><a href="sample-cv.html">CV Packages</a></li>
-							<li>
-								<a href="candidate-list-sidebar.html">Candidate Listing</a>
-							</li>
-							<li><a href="candidate-grid.html">Candidates Grid</a></li>
-							<li><a href="about-us.html">About us</a></li>
-							<li><a href="contact-us.html">Contact us </a></li>
-						</ul>
+						<h6 class="ft-title">For Talent</h6>
+						
 					</div>
 				</div>
 				<div class="col-lg-2 col-md-4 col-6">
 					<div class="footer-cl-4">
-						<h6 class="ft-title">For Employers</h6>
-						<ul class="navigation-menu-footer">
-							<li><a href="find-jobs-list.html">Post New Job</a></li>
-							<li><a href="employers-list.html">Employer Listing</a></li>
-							<li>
-								<a href="employers-grid-sidebar.html">Employers Grid</a>
-							</li>
-							<li><a href="find-jobs-list.html">Job Packages</a></li>
-							<li><a href="find-jobs-list.html">Jobs Listing</a></li>
-							<li><a href="find-jobs-grid.html">Jobs Style Grid</a></li>
-						</ul>
+						<h6 class="ft-title">For Recruiters</h6>
+						
 					</div>
 				</div>
 				<div class="col-lg-2 col-md-4 col-6">

@@ -4460,6 +4460,7 @@ button.btn-gt-default-2 {
     margin: 0px 10px;
     border:1px solid #d9d9d9;
     height: 300px;
+    width: 22%;
 }
 
 .current-portfolio {
@@ -4480,4 +4481,14 @@ button.remove_portfolio_item {
 
 .dz-message p img {
     max-width: 100px;
+}
+
+.dashboard span.current {
+    margin: 0;
+}
+
+.dashboard img.portfolio-item-single {
+    max-width: 100%;
+    height: 295px;
+    object-fit: cover;
 }

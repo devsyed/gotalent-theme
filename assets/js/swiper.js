@@ -326,5 +326,59 @@ jQuery(document).ready(function($){
       },
     });
   }
+  if ($("div").hasClass("portfolio-thumbs")) {
+    var thumbsPortfolio = new Swiper(".portfolio-thumbs", {
+      slidesPerView: 5,
+      loop:true,
+      spaceBetween: 32,
+      navigation: {
+        clickable: true,
+        nextEl: ".button-tes-next",
+        prevEl: ".button-tes-prev",
+      },
+      
+      breakpoints: {
+        500: {
+          slidesPerView: 3,
+        },
+        1200: {
+          slidesPerView: 5,
+        },
+      },
+    });
+  }
+
+  if ($("div").hasClass("portfolio")) {
+    var swiper = new Swiper(".portfolio", {
+      loop: true,
+      slidesPerView: 1,
+      spaceBetween: 32,
+      thumbs: {
+        swiper: thumbsPortfolio
+      },
+      navigation: {
+        clickable: true,
+        nextEl: ".button-tes-next",
+        prevEl: ".button-tes-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        500: {
+          slidesPerView: 1,
+          spaceBetween: 32,
+        },
+        1200: {
+          slidesPerView: 1,
+          spaceBetween: 46,
+        },
+      },
+    });
+  }
+
+
+ 
   
 })
