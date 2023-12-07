@@ -379,6 +379,37 @@ jQuery(document).ready(function($){
   }
 
 
+  if ($("div").hasClass("spotlight-talent-videos")) {
+    var swiper = new Swiper(".spotlight-talent-videos", {
+      loop: true,
+      slidesPerView: 1,
+      spaceBetween: 32,
+      thumbs: {
+        swiper: thumbsPortfolio
+      },
+      navigation: {
+        clickable: true,
+        nextEl: ".button-tes-next",
+        prevEl: ".button-tes-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        500: {
+          slidesPerView: 2,
+          spaceBetween: 32,
+        },
+        1200: {
+          slidesPerView: 4,
+          spaceBetween: 46,
+        },
+      },
+    });
+  }
+
+
  
   
 })

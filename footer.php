@@ -18,6 +18,9 @@
 							<li>
 								<a href="#"><i class="icon-youtube"></i></a>
 							</li>
+							<li>
+								<a href="#"><i class="icon-instagram1"></i></a>
+							</li>
 						</ul>
 					</div>
 				</div>
