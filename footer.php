@@ -12,14 +12,14 @@
 						<span>Follow Us:</span>
 						<ul class="list-social d-flex aln-center">
 							<li>
-								<a href="#"><i class="icon-facebook"></i></a>
+								<a href="<?php echo get_option('facebook_url') ?>"><i class="icon-facebook"></i></a>
 							</li>
 							
 							<li>
-								<a href="#"><i class="icon-youtube"></i></a>
+								<a href="<?php echo get_option('youtube_url') ?>"><i class="icon-youtube"></i></a>
 							</li>
 							<li>
-								<a href="#"><i class="icon-instagram1"></i></a>
+								<a href="<?php echo get_option('instagram_url') ?>"><i class="icon-instagram1"></i></a>
 							</li>
 						</ul>
 					</div>

@@ -7470,7 +7470,7 @@
   
   .candidate-form .row-group-search {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 191px;
+    grid-template-columns: 1fr 1fr 1fr 191px;
   }
   
   .candidate-form.form-no-avai .row-group-search {

@@ -17,15 +17,15 @@ get_header();
 
           </div>
           <div class="form-sl">
-            <form method="post">
+            <form action="/talent" method="GET">
               <div class="row-group-search home1 st">
                 <div class="form-group-1">
                   <span class="icon-search search-job"></span>
-                  <input type="text" class="input-filter-search" placeholder="Job title, key words or company" />
+                  <input type="text" class="input-filter-search" placeholder="Job title, key words or company" name="keyword" />
                 </div>
                 <div class="form-group-2">
                   <span class="icon-map-pin"></span>
-                  <select id="select-location" class="select-location">
+                  <select id="select-location" class="select-location" name="location">
                     <option value="uae">United Arab Emirates</option>
                   </select>
                 </div>
@@ -383,7 +383,7 @@ get_header();
 </section>
 <hr>
 <section class="spotlight-talent mt-4 pt-5">
-  <div class="tf-container">
+  <div class="tf-container mb-4">
     <div class="row">
       <div class="col-md-12">
         <div class="heading tf-title">

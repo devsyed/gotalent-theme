@@ -3382,3 +3382,57 @@ small {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.spotlight-talent-single {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.play-video {
+  color: #fff;
+  font-size: 32px;
+  background: #000000a3;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.open-spotlight-area {
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: #1d1d1da1;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+button.close-spotlight-area {
+    background: #fff;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 50px;
+    top: 20px;
+}
+#spotlight-video-area{
+  display: none;
+}
+
+.select-location span.current {padding-left: 30px;}
+
+.spotlight-video-header h1 {
+  font-size: 18px;
+}

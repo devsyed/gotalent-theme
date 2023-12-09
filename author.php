@@ -46,6 +46,13 @@ $merged_portfolio = array_merge($values_filtered, $portfolio);
           <?php endif; ?>
         </div>
       </div>
+      <div class="author-archive-footer">
+        <div class="group-btn">
+          <?php if ($talent->ID !== get_current_user_id()) :  ?>
+            <a href="/book-talent?talent_id=<?php echo $talent->ID ?>" class="tf-btn btn-author">Book Talent</a>
+          <?php endif; ?>
+        </div>
+      </div>
 
     </div>
   </div>
@@ -57,7 +64,7 @@ $merged_portfolio = array_merge($values_filtered, $portfolio);
         <article class="job-article tf-tab single-job stc2">
           <ul class="menu-tab">
             <li class="ct-tab active">Description</li>
-            <li class="ct-tab">Portfolio</li>
+            <li class="ct-tab">Media</li>
             <li class="ct-tab">Requirements</li>
             <li class="ct-tab">Packages</li>
           </ul>

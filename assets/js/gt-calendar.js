@@ -92,7 +92,7 @@ document.addEventListener("DOMContentLoaded", function () {
             day.addEventListener("click", () => {
                 const clickedDate = new Date(year, month, parseInt(day.textContent));
                 const formattedClickedDate = formatDate(clickedDate);
-                alert(`Clicked on ${formattedClickedDate}`);
+               
             });
         });
     }
