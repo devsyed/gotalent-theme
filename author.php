@@ -10,7 +10,7 @@ $description = get_user_meta($talent->ID, 'bio_description', true);
 $country = get_user_meta($talent->ID, 'country', true);
 $city = get_user_meta($talent->ID, 'city', true);
 
-$portfolio = get_user_meta($talent->ID, 'portfolio_links', true);
+$portfolio = !empty(get_user_meta($talent->ID, 'portfolio_links', true)) ? get_user_meta($talent->ID, 'portfolio_links', true) : [];
 $requirements = get_user_meta($talent->ID, 'requirement_for_performing', true);
 $available_days = (get_user_meta($talent->ID, 'available_days', true)) ? get_user_meta($talent->ID, 'available_days', true) : [];
 $expected_days = array('monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday');
