@@ -381,7 +381,7 @@ jQuery(document).ready(function($){
 
   if ($("div").hasClass("spotlight-talent-videos")) {
     var swiper = new Swiper(".spotlight-talent-videos", {
-      loop: true,
+      loop: false,
       slidesPerView: 1,
       spaceBetween: 32,
       thumbs: {

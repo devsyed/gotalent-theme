@@ -61,6 +61,7 @@
 				<div class="col-lg-2 col-md-6 col-6">
 					<div class="footer-cl-2">
 						<h6 class="ft-title">Quick Links</h6>
+						<?php wp_nav_menu(array('theme_location' => 'functions.php')) ?>
 						<!-- <ul class="navigation-menu-footer">
 							<li><a href="find-jobs-list.html">Job Packages</a></li>
 							<li><a href="find-jobs-list.html">Post New Job</a></li>
