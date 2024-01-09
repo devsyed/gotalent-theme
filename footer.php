@@ -40,7 +40,7 @@
 							</div>
 							<div class="content">
 								<p>Need help? 24/7</p>
-								<h6><a href="tel:0123456678">001-1234-88888</a></h6>
+								<h6><a href="tel:0123456678"><?php echo get_option('contact_number') ?></a></h6>
 							</div>
 						</div>
 						<p>
@@ -48,13 +48,9 @@
 						</p>
 						<div class="ft-icon">
 							<i class="icon-map-pin"></i> 
+							<span><?php echo get_option('address') ?></span>
 						</div>
-						<form action="#" id="subscribe-form">
-							<input type="email" placeholder="Your email address" required="" id="subscribe-email" />
-							<button class="tf-button" type="submit" id="subscribe-button">
-								<i class="icon-paper-plane-o"></i>
-							</button>
-						</form>
+						
 						
 					</div>
 				</div>
@@ -91,10 +87,10 @@
 						<h6 class="ft-title">Download App</h6>
 						<ul class="ft-download">
 							<li>
-								<a href="#"><img src="<?php echo GT_IMAGES ?>/review/btn3.png" alt="images" /></a>
+								<a href="<?php echo get_option('google_store_link') ?>"><img src="<?php echo GT_IMAGES ?>/review/btn3.png" alt="images" /></a>
 							</li>
 							<li>
-								<a href="#"><img src="<?php echo GT_IMAGES ?>/review/btn4.png" alt="images" /></a>
+								<a href="<?php echo get_option('apple_store_link') ?>"><img src="<?php echo GT_IMAGES ?>/review/btn4.png" alt="images" /></a>
 							</li>
 						</ul>
 					</div>
@@ -108,21 +104,9 @@
 				<div class="col-lg-6 col-md-6">
 					<div class="bt-left">
 						<div class="copyright">
-							©2023 GoTalent. All Rights Reserved.
+							© <?php echo date('Y');?> GoTalent. All Rights Reserved.
 						</div>
-						<span class="select-language">
-							<select class="image-select">
-								<option data-thumbnail="<?php echo GT_IMAGES ?>/review/flag.png">
-									English
-								</option>
-								<option data-thumbnail="<?php echo GT_IMAGES ?>/review/flag3.png">
-									USA
-								</option>
-								<option data-thumbnail="<?php echo GT_IMAGES ?>/review/flag2.png">
-									VN
-								</option>
-							</select>
-						</span>
+						
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-6">

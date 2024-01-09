@@ -328,7 +328,6 @@ jQuery(document).ready(function($){
   }
   if ($("div").hasClass("portfolio-thumbs")) {
     var thumbsPortfolio = new Swiper(".portfolio-thumbs", {
-      slidesPerView: 5,
       loop:true,
       spaceBetween: 32,
       navigation: {
@@ -336,7 +335,6 @@ jQuery(document).ready(function($){
         nextEl: ".button-tes-next",
         prevEl: ".button-tes-prev",
       },
-      
       breakpoints: {
         500: {
           slidesPerView: 3,

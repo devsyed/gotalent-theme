@@ -3438,3 +3438,9 @@ button.close-spotlight-area {
 .spotlight-video-header h1 {
   font-size: 18px;
 }
+
+
+.wd-thum-career.style-2 .thumb {
+  height: 200px;
+  width: 200px;
+}

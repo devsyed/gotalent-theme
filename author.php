@@ -48,9 +48,14 @@ $merged_portfolio = array_merge($values_filtered, $portfolio);
       </div>
       <div class="author-archive-footer">
         <div class="group-btn">
-          <?php if ($talent->ID !== get_current_user_id()) :  ?>
+          <?php if(!is_user_logged_in()): ?>
+              <button class="btn-gt-default" data-bs-toggle="modal" data-bs-target="#registration-modal">Login to Book Talent</button>
+          <?php endif; ?>
+        
+          <?php if ($talent->ID !== get_current_user_id() && is_user_logged_in()) :  ?>
             <a href="/book-talent?talent_id=<?php echo $talent->ID ?>" class="tf-btn btn-author">Book Me</a>
           <?php endif; ?>
+            
         </div>
       </div>
 

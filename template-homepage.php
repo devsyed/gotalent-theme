@@ -21,7 +21,7 @@ get_header();
               <div class="row-group-search home1 st">
                 <div class="form-group-1">
                   <span class="icon-search search-job"></span>
-                  <input type="text" class="input-filter-search" placeholder="Job title, key words or company" name="keyword" />
+                  <input type="text" class="input-filter-search" placeholder="Fire Breahter, Dancer, Saxophonist etc..." name="keyword" />
                 </div>
                 <div class="form-group-2">
                   <span class="icon-map-pin"></span>

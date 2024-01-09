@@ -2731,3 +2731,24 @@
     right: -10px;
   }
 }
+
+
+/** OVerride styles **/ 
+@media only screen and (max-width: 576px){
+  .logo-main img {
+      min-width: 165px;
+  }
+
+  .tf-slider .heading h2 {
+      font-size: 33px!important;
+  }
+
+  .row-group-search.home1.st {
+      padding-bottom: 2px;
+  }
+
+  .spotlight-talent-single {
+    background-size: contain;
+    border:none!important;
+  }
+}
