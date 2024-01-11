@@ -13,7 +13,7 @@ get_header();
       <div class="col-lg-6 col-md-12">
         <div class="content wow fadeInUp">
           <div class="heading">
-            <h2>Find the <strong class="auto-type">Talents</strong> <br> for any job.</h2>
+            <h2>Find the <strong class="auto-type">Talents</strong> <br> for any event.</h2>
 
           </div>
           <div class="form-sl">
@@ -35,7 +35,7 @@ get_header();
                 Find Talent
               </button>
             </form>
-            <p class="my-3">
+            <p class="my-3 text-bold">
               Discover, book, and elevate your events with exceptional talents, all at your fingertips. With GoTalent,
               your vision becomes reality, and every moment turns into a masterpiece. Your stage, your story, your
               talent.
