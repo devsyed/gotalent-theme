@@ -2752,3 +2752,15 @@
     border:none!important;
   }
 }
+
+
+@media only screen and (max-width: 550px){
+  .group-category-job .job-category-box {
+      width: 100%;
+      flex-basis: 100%;
+  }
+  .spotlight-talent-single {
+      background-size: cover;
+      border: none!important;
+  }
+}

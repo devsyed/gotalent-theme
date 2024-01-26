@@ -381,14 +381,14 @@ jQuery(document).ready(function($){
     var swiper = new Swiper(".spotlight-talent-videos", {
       loop: false,
       slidesPerView: 1,
-      spaceBetween: 32,
+      spaceBetween:30,
       thumbs: {
         swiper: thumbsPortfolio
       },
       navigation: {
         clickable: true,
-        nextEl: ".button-tes-next",
-        prevEl: ".button-tes-prev",
+        prevEl: ".swiper-button-prev",
+        nextEl: ".swiper-button-next",
       },
       pagination: {
         el: ".swiper-pagination",
@@ -397,11 +397,9 @@ jQuery(document).ready(function($){
       breakpoints: {
         500: {
           slidesPerView: 2,
-          spaceBetween: 32,
         },
         1200: {
           slidesPerView: 4,
-          spaceBetween: 46,
         },
       },
     });

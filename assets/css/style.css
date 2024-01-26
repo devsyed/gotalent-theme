@@ -3388,8 +3388,9 @@ small {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  background-size: cover;
   border: 1px solid #d9d9d9;
-  background-size: contain;
+  background-color: #fbfbfb;
 }
 
 .play-video {
@@ -3443,6 +3444,7 @@ button.close-spotlight-area {
 .wd-thum-career.style-2 .thumb {
   height: 200px;
   width: 200px;
+  object-fit: cover;
 }
 
 
@@ -3465,4 +3467,114 @@ hr.divider{
 
 .text-bold {
   font-weight: 600;
+}
+
+
+.swiper-button-prev {
+  left: -8px;
+  color: #fff;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+  font-size: 15px;
+}
+
+.swiper-button-next {
+  right: -8px;
+  color: #fff;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+  font-size: 15px;
+}
+
+
+.spotlight-talent .swiper-button-prev {
+  background: var(--gt-color-red);
+  width: 50px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  left: 5px;
+}
+
+.spotlight-talent .swiper-button-disabled {
+  display: none;
+}
+.spotlight-talent .swiper-button-next.swiper-button-disabled {
+  display: none;
+}
+
+.spotlight-talent .swiper-button-next {
+  background: var(--gt-color-red);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  right: 0;
+}
+
+.form-check-input:checked[type=checkbox] {
+  filter: brightness(0.5);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .collapsing {
+      transition-property: height, visibility;
+      transition-duration: .35s;
+  }
+}
+
+.single-section-author {
+  border-bottom: 1px solid #d9d9d9;
+  padding: 10px 0px;
+  margin-bottom: 20px;
+}
+
+.single-section-author h6 {
+  font-size: 20px;
+}
+
+.portfolio-images {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.portfolio-images img {
+  max-width: 22%;
+  border: 1px solid #d9d9d9;
+  margin: 5px;
+}
+
+
+.portfolio-images a {
+  flex-basis: 25%;
+}
+
+.portfolio-images a img {
+  max-width: 95%;
+  min-height: 225px;
+  object-fit: contain;
+}
+
+.talent-confidential {
+  margin-top: 50px;
+  border: 1px solid #d9d9d9;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.talent-confidential h6 {
+  background: #fff;
+  position: relative;
+  top: -32px;
+  margin-bottom: -30px;
+}
+
+p.confidential-details-title {
+    margin-top: 20px;
+    font-size: 20px;
+    border-bottom: 1px solid #d9d9d9;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
 }

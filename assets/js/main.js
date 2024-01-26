@@ -118,17 +118,25 @@
     }
   };
 
-  /** Category Bar */
+  /** Category  Bar */
 
   const categoriesHeaderBar = new Swiper('.categories-header-bar', {
+    
     breakpoints:{
         100:{
             slidesPerView:3,
+            navigation: {
+              clickable: true,
+              prevEl: ".swiper-button-prev",
+              nextEl: ".swiper-button-next",
+            },
             autoplay:{
                 autoplayTimeout:100,
             },
         },
+
         768:{
+          navigation:false,
             slidesPerView:9,
             autoplay:{
                 autoplayTimeout:100,

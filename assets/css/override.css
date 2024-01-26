@@ -452,6 +452,7 @@ button.tf-btn.btn-author:hover{
 .wd-author-page-title .logo-company {
     border-radius: 50%;
     object-fit: cover;
+    border: 3px solid #d9d9d940;
 }
 
 .widget-menu-link {
