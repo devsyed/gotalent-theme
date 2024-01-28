@@ -139,21 +139,7 @@ $merged_portfolio = array_merge($values_filtered, $portfolio);
           </div>
         </div>
       </div>
-      <?php if (current_user_can('can_manage_recruiter_and_talent')) : ?>
-        <div class="col-lg-4">
-          <div class="talent-confidential">
-            <h6 class="text-end">Talent Confidential Information</h6>
-            <p class="text-end"><small>This information is only visible to admin. </small></p>
-            <p class="confidential-details-title">Bank Details</p>
-            <ul>
-              <li><strong>Bank Name:</strong> <?php echo get_user_meta($talent->ID, 'bank_name', true); ?></li>
-              <li><strong>Account Number:</strong> <?php echo get_user_meta($talent->ID, 'account_number', true); ?></li>
-              <li><strong>Swift Code</strong> <?php echo get_user_meta($talent->ID, 'swift_code', true); ?></li>
-              <li><strong>IBAN Number</strong> <?php echo get_user_meta($talent->ID, 'iban_number', true); ?></li>
-            </ul>
-          </div>
-        </div>
-      <?php endif; ?>
+    
     </div>
   </div>
 </section>
