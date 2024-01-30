@@ -328,7 +328,7 @@ jQuery(document).ready(function($){
   }
   if ($("div").hasClass("portfolio-thumbs")) {
     var thumbsPortfolio = new Swiper(".portfolio-thumbs", {
-      loop:true,
+      loop:false,
       spaceBetween: 32,
       navigation: {
         clickable: true,
@@ -348,7 +348,7 @@ jQuery(document).ready(function($){
 
   if ($("div").hasClass("portfolio")) {
     var swiper = new Swiper(".portfolio", {
-      loop: true,
+      loop: false,
       slidesPerView: 1,
       spaceBetween: 32,
       thumbs: {
@@ -379,7 +379,6 @@ jQuery(document).ready(function($){
 
   if ($("div").hasClass("spotlight-talent-videos")) {
     var swiper = new Swiper(".spotlight-talent-videos", {
-      loop: false,
       slidesPerView: 1,
       spaceBetween:30,
       thumbs: {

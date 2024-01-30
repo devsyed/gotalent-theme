@@ -73,13 +73,10 @@ $merged_portfolio = array_merge($values_filtered, $portfolio);
     <div class="row">
       <div class="col-lg-8">
         <div class="single-section-author">
-          <h6>Overview</h6>
+          <h6>About Me</h6>
           <?php echo $description; ?>
         </div>
-        <div class="single-section-author">
-          <h6>Requirements</h6>
-          <?php echo $requirements; ?>
-        </div>
+        
 
         <div class="single-section-author">
           <h6>Portfolio Images</h6>
@@ -131,6 +128,10 @@ $merged_portfolio = array_merge($values_filtered, $portfolio);
               </div>
               <?php endif; ?>
             </div>
+        </div>
+        <div class="single-section-author">
+          <h6>Requirements</h6>
+          <?php echo $requirements; ?>
         </div>
         <div class="single-section-author border-none">
           <h6 class="mb-3">Packages</h6>
