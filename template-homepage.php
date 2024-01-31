@@ -339,7 +339,7 @@ get_header();
       <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.3s">
         <div class="wd-get-app">
           <div class="thumb ani4">
-            <img src="<?php echo GT_IMAGES; ?>/review/phone.png" alt="<?php echo GT_IMAGES; ?>" />
+            <img src="<?php echo GT_IMAGES; ?>/app-banner.png" alt="<?php echo GT_IMAGES; ?>" />
           </div>
         </div>
       </div>
@@ -348,8 +348,7 @@ get_header();
           <div class="content">
             <h4>Download The App</h4>
             <p>
-              Structured digital interviews increase the predictive <br />
-              validity of your hires by 65%.
+            Elevate your event experience - download our app now for seamless planning and unforgettable moments!
             </p>
             <div class="group-btn">
               <a href="#"><img src="<?php echo GT_IMAGES; ?>/review/btn2.png" alt="<?php echo GT_IMAGES; ?>" /></a>
