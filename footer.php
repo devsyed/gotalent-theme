@@ -57,7 +57,7 @@
 				<div class="col-lg-2 col-md-6 col-6">
 					<div class="footer-cl-2">
 						<h6 class="ft-title">Quick Links</h6>
-						<?php wp_nav_menu(array('theme_location' => 'functions.php')) ?>
+						<?php wp_nav_menu(array('theme_location' => 'quick_links')) ?>
 						<!-- <ul class="navigation-menu-footer">
 							<li><a href="find-jobs-list.html">Job Packages</a></li>
 							<li><a href="find-jobs-list.html">Post New Job</a></li>
@@ -73,13 +73,13 @@
 				<div class="col-lg-2 col-md-4 col-6">
 					<div class="footer-cl-3">
 						<h6 class="ft-title">For Talent</h6>
-						
+						<?php wp_nav_menu(array('theme_location' => 'for_talent')) ?>
 					</div>
 				</div>
 				<div class="col-lg-2 col-md-4 col-6">
 					<div class="footer-cl-4">
 						<h6 class="ft-title">For Recruiters</h6>
-						
+						<?php wp_nav_menu(array('theme_location' => 'for_recruiter')) ?>
 					</div>
 				</div>
 				<div class="col-lg-2 col-md-4 col-6">
@@ -109,13 +109,7 @@
 						
 					</div>
 				</div>
-				<div class="col-lg-6 col-md-6">
-					<ul class="menu-bottom d-flex aln-center">
-						<li><a href="term-of-use.html">Terms Of Services</a></li>
-						<li><a href="pricing.html">Privacy Policy</a></li>
-						<li><a href="contact-us.html">Cookie Policy</a></li>
-					</ul>
-				</div>
+
 			</div>
 		</div>
 	</div>

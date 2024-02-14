@@ -2764,3 +2764,30 @@
       border: none!important;
   }
 }
+
+@media only screen and (max-width: 768px){
+  ol.step-indicator {
+      flex-flow: column;
+      gap: 85px;
+  }
+
+  .wrapper-buy-package .container-fluid {
+      margin: 0!important;
+      padding: 0!important;
+  }
+
+  ol.step-indicator li::after {
+      display: none;
+  }
+  .step-btns button {
+    top: 30vh;
+}
+
+.step-btns button.prev {
+    left: 10px;
+}
+
+.step-btns button.next {
+    left: 88%;
+}
+}
